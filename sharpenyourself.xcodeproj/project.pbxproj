@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788C5CB61E0FED5100F4032C /* leetcode_67_add_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CB41E0FED5100F4032C /* leetcode_67_add_binary.cpp */; };
+		788C5CB91E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CB71E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp */; };
+		788C5CBC1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CBA1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp */; };
+		788C5CBF1E1010CB00F4032C /* leetcode100_same_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CBD1E1010CB00F4032C /* leetcode100_same_tree.cpp */; };
 		789D0C221E02EFBA0027EDB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 789D0C211E02EFBA0027EDB6 /* main.cpp */; };
+		789D0C2D1E02F1960027EDB6 /* leetcode_XXX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 789D0C2B1E02F1960027EDB6 /* leetcode_XXX.cpp */; };
+		789D0C301E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 789D0C2E1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		788C5CB41E0FED5100F4032C /* leetcode_67_add_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_67_add_binary.cpp; sourceTree = "<group>"; };
+		788C5CB51E0FED5100F4032C /* leetcode_67_add_binary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_67_add_binary.hpp; sourceTree = "<group>"; };
+		788C5CB71E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_83_rm_duplicate_from_sorted_list.cpp; sourceTree = "<group>"; };
+		788C5CB81E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_83_rm_duplicate_from_sorted_list.hpp; sourceTree = "<group>"; };
+		788C5CBA1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode88_merge_sorted_array.cpp; sourceTree = "<group>"; };
+		788C5CBB1E10014B00F4032C /* leetcode88_merge_sorted_array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode88_merge_sorted_array.hpp; sourceTree = "<group>"; };
+		788C5CBD1E1010CB00F4032C /* leetcode100_same_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode100_same_tree.cpp; sourceTree = "<group>"; };
+		788C5CBE1E1010CB00F4032C /* leetcode100_same_tree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode100_same_tree.hpp; sourceTree = "<group>"; };
 		789D0C1E1E02EFBA0027EDB6 /* sharpenyourself */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sharpenyourself; sourceTree = BUILT_PRODUCTS_DIR; };
 		789D0C211E02EFBA0027EDB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		789D0C291E02F0810027EDB6 /* function_interface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = function_interface.hpp; sourceTree = "<group>"; };
+		789D0C2B1E02F1960027EDB6 /* leetcode_XXX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_XXX.cpp; sourceTree = "<group>"; };
+		789D0C2C1E02F1960027EDB6 /* leetcode_XXX.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_XXX.hpp; sourceTree = "<group>"; };
+		789D0C2E1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_12_interger_to_roman.cpp; sourceTree = "<group>"; };
+		789D0C2F1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_12_interger_to_roman.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				789D0C211E02EFBA0027EDB6 /* main.cpp */,
+				789D0C291E02F0810027EDB6 /* function_interface.hpp */,
+				789D0C2B1E02F1960027EDB6 /* leetcode_XXX.cpp */,
+				789D0C2C1E02F1960027EDB6 /* leetcode_XXX.hpp */,
+				789D0C2E1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp */,
+				789D0C2F1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.hpp */,
+				788C5CB41E0FED5100F4032C /* leetcode_67_add_binary.cpp */,
+				788C5CB51E0FED5100F4032C /* leetcode_67_add_binary.hpp */,
+				788C5CB71E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp */,
+				788C5CB81E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.hpp */,
+				788C5CBA1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp */,
+				788C5CBB1E10014B00F4032C /* leetcode88_merge_sorted_array.hpp */,
+				788C5CBD1E1010CB00F4032C /* leetcode100_same_tree.cpp */,
+				788C5CBE1E1010CB00F4032C /* leetcode100_same_tree.hpp */,
 			);
 			path = sharpenyourself;
 			sourceTree = "<group>";
@@ -119,7 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788C5CBF1E1010CB00F4032C /* leetcode100_same_tree.cpp in Sources */,
+				788C5CB61E0FED5100F4032C /* leetcode_67_add_binary.cpp in Sources */,
 				789D0C221E02EFBA0027EDB6 /* main.cpp in Sources */,
+				789D0C301E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp in Sources */,
+				788C5CB91E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp in Sources */,
+				788C5CBC1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp in Sources */,
+				789D0C2D1E02F1960027EDB6 /* leetcode_XXX.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +284,7 @@
 				789D0C271E02EFBA0027EDB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
