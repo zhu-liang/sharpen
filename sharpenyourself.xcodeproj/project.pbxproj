@@ -44,6 +44,8 @@
 		789D0C2C1E02F1960027EDB6 /* leetcode_XXX.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_XXX.hpp; sourceTree = "<group>"; };
 		789D0C2E1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_12_interger_to_roman.cpp; sourceTree = "<group>"; };
 		789D0C2F1E02F58C0027EDB6 /* leetcode_12_interger_to_roman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_12_interger_to_roman.hpp; sourceTree = "<group>"; };
+		789F4A561E12B4050013C693 /* effective_c++ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "effective_c++"; path = "sharpenyourself/effective_c++"; sourceTree = "<group>"; };
+		789F4A581E12B4440013C693 /* effective_c++ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "effective_c++"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				789D0C201E02EFBA0027EDB6 /* sharpenyourself */,
 				789D0C1F1E02EFBA0027EDB6 /* Products */,
+				789F4A561E12B4050013C693 /* effective_c++ */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +79,7 @@
 		789D0C201E02EFBA0027EDB6 /* sharpenyourself */ = {
 			isa = PBXGroup;
 			children = (
+				789F4A581E12B4440013C693 /* effective_c++ */,
 				789D0C211E02EFBA0027EDB6 /* main.cpp */,
 				789D0C291E02F0810027EDB6 /* function_interface.hpp */,
 				789D0C2B1E02F1960027EDB6 /* leetcode_XXX.cpp */,
