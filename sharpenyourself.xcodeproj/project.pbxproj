@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7880AF441E17C127009D863A /* clause27_minimizing_cast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7880AF431E17C127009D863A /* clause27_minimizing_cast.cpp */; };
 		788C5CB61E0FED5100F4032C /* leetcode_67_add_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CB41E0FED5100F4032C /* leetcode_67_add_binary.cpp */; };
 		788C5CB91E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CB71E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp */; };
 		788C5CBC1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788C5CBA1E10014B00F4032C /* leetcode88_merge_sorted_array.cpp */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7880AF431E17C127009D863A /* clause27_minimizing_cast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clause27_minimizing_cast.cpp; path = "effective_c++/clause27_minimizing_cast.cpp"; sourceTree = "<group>"; };
 		788C5CB41E0FED5100F4032C /* leetcode_67_add_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_67_add_binary.cpp; sourceTree = "<group>"; };
 		788C5CB51E0FED5100F4032C /* leetcode_67_add_binary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = leetcode_67_add_binary.hpp; sourceTree = "<group>"; };
 		788C5CB71E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_83_rm_duplicate_from_sorted_list.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				788C5CBB1E10014B00F4032C /* leetcode88_merge_sorted_array.hpp */,
 				788C5CBD1E1010CB00F4032C /* leetcode100_same_tree.cpp */,
 				788C5CBE1E1010CB00F4032C /* leetcode100_same_tree.hpp */,
+				7880AF431E17C127009D863A /* clause27_minimizing_cast.cpp */,
 			);
 			path = sharpenyourself;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				788C5CBF1E1010CB00F4032C /* leetcode100_same_tree.cpp in Sources */,
 				788C5CB61E0FED5100F4032C /* leetcode_67_add_binary.cpp in Sources */,
+				7880AF441E17C127009D863A /* clause27_minimizing_cast.cpp in Sources */,
 				789D0C221E02EFBA0027EDB6 /* main.cpp in Sources */,
 				789D0C301E02F58C0027EDB6 /* leetcode_12_interger_to_roman.cpp in Sources */,
 				788C5CB91E0FF96600F4032C /* leetcode_83_rm_duplicate_from_sorted_list.cpp in Sources */,
